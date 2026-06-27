@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #0d4ea8 0%, #061a48 60%, #020917 100%);
+  color: #ffffff;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+select,
+textarea,
+button {
+  color: #ffffff;
+}
+
+select {
+  background: #1655b8 !important;
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.18) !important;
+}
+
+select option {
+  background: #0f3c8a;
+  color: #ffffff;
+}
+
+::selection {
+  background: rgba(56, 189, 248, 0.4);
+  color: #ffffff;
+}
